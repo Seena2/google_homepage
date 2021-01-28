@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:rgb(243, 247, 247);
+}
+
+.header img{
+    width: 1.4em;
+    height: 1.4 em;
+}
+.menu{
+    float: right;
+}
+.menu ul li a{
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 0;
+    padding: .5em;
+    list-style: none;
+    display: inline;
+    float: right;
+    text-decoration: none;
+}
+#mainContaint{
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+   
+}
+.footer ul li {
+   list-style-type: none;
+}
+.footer ul li a{
+    list-style-type: none;
+ }
+.footer ul li a:hover{
+    color:rgb(209, 37, 37);
+    text-decoration: underline;
+    
+}
+.ad{
+    float: left;
+    margin: 0;
+}
+.setting{
+    float: right;
+    margin-right: 0;
+
+}
