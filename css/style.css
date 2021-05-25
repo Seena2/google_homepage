@@ -2,123 +2,79 @@ body{
     margin: 0;
     padding: 0;
 }
-/* aligns the navbar items to the right*/
-.navbar{
-    float:right;
-}
-/* reduce the size of the app and username icon*/
-.navbar img{
-    width: 1.4em;
-    height: 1.4 em;
-}
-/*styles the links to look like that of googles*/
-.navbar ul li{
-    display: inline;  
-}
-.navbar ul  li a{
-    display: inline;
-    color:#353434;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 0 5px;
-}
-/*==google logo section==*/
-.logo{
+nav{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: right;
+    margin: 2em;
 }
-.logo img{
-    position: absolute;
-    top: 25%;
-    left: 30%;
-    margin:0 auto;
-}
-/* search box styling*/
-.search-box{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-.searchMe{
-    position: absolute;
-    border: 3px solid #868282;
-    line-height: 4em;
-    height: 3em;
-    width: 50%;
-    top:40%;
-    border-radius: 10px;
-}
-/*==two buttons ==*/
-.btns{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 70%;
-    position: absolute;
-    top: 47%;
-    left: 30%;
-}
-/* ==== the language links section===*/
-.language-links{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-}
-.language-links li{
-    display: inline;
-    color:#353434;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 0 5px;
-    width: 80%;
-}
-.language-links a{
-    list-style-type: none;
-    text-decoration: none;
-    justify-items: auto;
-    padding: 0 .2em;
-    top: 50%;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #fff4f4;
-  border-top: 1px solid #cec6c6;
-  font-size: 1em;
-}
-.footer ul li {
-   list-style-type: none;
-   display: inline;
-   
-}
-.footer ul li a{
-    color: #1f1c1c;
-    list-style-type: none;
-    text-decoration: none;
-    padding-left: .6em;
- }
-.footer ul li a:hover{
-    text-decoration: underline;   
-}
-.ad{
-    float: left;
+ul{
+    list-style-type:none;
+    padding: 0;
     margin: 0;
 }
-.setting{
-    float: right;
-    margin-right: 5px;
-    
+li{
+    display: inline;
 }
-.foot2{
-    border-top: 2px solid #cec6c6;
+ul li a{
+    text-decoration: none;
+    color: rgb(22, 17, 17);
+    padding: 0.8em;
 }
 
-.clr{
-    overflow: auto;
+#usr{
+    color:#fff;
+    background-color: rgb(174, 181, 187);
+    border-radius: 50%;
+}
+#logo{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+#txt-form{
+    width: 30%;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 25px;
+    border: rgb(173, 172, 172) 2px solid;
+}
+button{
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+#language{
+    margin: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+#language a{
+    text-decoration: none;
+    padding: 0.3em;
+}
+#foot{
+    background-color:#e9e3e3;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+#country{
+    border-bottom: #c4bfbf solid 1px;
+}
+
+
+#foot1 a,#foot2 a{
+     text-decoration: none;
+    color: rgb(22, 17, 17);
+    padding: 0.8em;
+}
+#foot2{
+    text-align: right;
+    padding-top: -6em;
+}
+
+#foot a:hover{
+    text-decoration: underline;
 }
